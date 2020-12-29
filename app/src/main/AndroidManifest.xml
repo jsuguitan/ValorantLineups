@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ValorantLineups">
-        <activity android:name=".map_screen"></activity>
+        <activity android:name=".MapSelectionScreen"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
