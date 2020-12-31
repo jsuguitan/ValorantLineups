@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="shock_bolt_color">#03FFFF</color>
+    <color name="recon_dart_color">#023E7C</color>
+    <color name="slow_orb_color">#64E6CB</color>
+    <color name="poison_cloud_color">#38CA02</color>
+    <color name="snake_bite_color">#094B01</color>
+    <color name="hot_hands_color">#FF0000</color>
+    <color name="valorant_color">#fa4454</color>
 </resources>

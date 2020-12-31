@@ -4,4 +4,6 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="Haven_Map_Picture">Map Picture</string>
+    <string name="hello">Hello</string>
+    <string name="ascent_name">Ascent</string>
 </resources>
