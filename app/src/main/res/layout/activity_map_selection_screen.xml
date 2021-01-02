@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,14 +24,16 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
-            android:text="@string/ascent_name"
+            android:text="@string/Maps"
             android:textColor="#000"
             android:textSize="24sp" />
     </RelativeLayout>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/valorant_color">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,50 +41,80 @@
             android:orientation="vertical">
 
             <!-- android:layout_height="wrap_content"-->
-            <Button
+            <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:text="@string/hello"
+                android:background="@drawable/loading_screen_ascent"
                 android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ascent_map_name"
+                android:textSize="12sp"
+                app:backgroundTint="@color/valorant_color" />
+
 
 
             <!-- android:layout_height="wrap_content"-->
-            <Button
+            <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:text="@string/hello"
+                android:background="@drawable/Loading_Screen_Bind"
                 android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bind_map_name"
+                android:textSize="12sp"
+                app:backgroundTint="@color/valorant_color" />
+
+
 
             <!-- android:layout_height="wrap_content"-->
-            <Button
+            <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:text="@string/hello"
+                android:background="@drawable/Loading_Screen_Haven"
                 android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/haven_map_picture"
+                android:textSize="12sp"
+                app:backgroundTint="@color/valorant_color" />
 
             <!-- android:layout_height="wrap_content"-->
-            <Button
+            <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:text="@string/hello"
+                android:background="@drawable/loading_screen_icebox"
                 android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/icebox_map_picture"
+                android:textSize="12sp"
+                app:backgroundTint="@color/valorant_color" />
+
 
             <!-- android:layout_height="wrap_content"-->
-            <Button
+            <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:text="@string/hello"
+                android:background="@drawable/Loading_Screen_Split"
                 android:textColor="#ffffff" />
 
-            <!-- android:layout_height="wrap_content"-->
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="@string/hello"
-                android:textColor="#ffffff" />
-
-
-
+                android:layout_height="wrap_content"
+                android:text="@string/split_map_picture"
+                android:textSize="12sp"
+                app:backgroundTint="@color/valorant_color" />
 
 
         </LinearLayout>

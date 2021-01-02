@@ -6,4 +6,19 @@
     <string name="Haven_Map_Picture">Map Picture</string>
     <string name="hello">Hello</string>
     <string name="ascent_name">Ascent</string>
+    <string name="Maps">Maps</string>
+    <string name="ascent_map_name">Ascent</string>
+    <string name="bind_map_name">Bind</string>
+    <string name="haven_map_picture">Haven</string>
+    <string name="icebox_map_picture">Icebox</string>
+    <string name="split_map_picture">Split</string>
+    <string name="title_activity_haven_map_screen">HavenMapScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
